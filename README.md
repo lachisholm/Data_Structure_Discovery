@@ -1,20 +1,28 @@
 # Data_Structure_Discovery
 
-Exploration of (LIFO) stacks, linked lists and trees presentation BYU Idaho winter 2024
+Exploration of (LIFO) stacks, linked lists and trees presentation
+BYU Idaho Winter 2024
 
-# Lesson Plan: Understanding Fundamental Data Structures
+# Understanding Fundamental Data Structures
 
 ## I. Introduction
 
 ### A. Overview
 
-As part of our class we cover the fundamental data structures that form the backbone of data structures within computer science. There are many concepts but we are going to be covering maps (also known as dictionaries), linked lists, trees, and the Last In, First Out (LIFO) concept. These data structures are essential for organizing and managing data efficiently in various algorithms and applications that we will build throughout our careers.
+As part of our class we cover the fundamental data structures. These structures are concepts that are the basics of data structures in the computer science field. I found that many of these structures are easy to learn with reading the right sources and information that is found over the internet and throughout Data Science books.Here is a list of the concepts that we will cover in this reading.
+
+*Map (also known as dictionaries)
+*Linked lists
+*Trees
+*Last In, First Out (LIFO) concept
+
+These data structures are essential for organizing and managing data efficiently in various algorithms and applications that we will build throughout our careers.
 
 First, we will explore maps, which are versatile key-value pair structures. Maps allow for efficient retrieval and insertion operations, making them invaluable for tasks such as indexing and caching. When you understand how maps work, you'll gain insights into how to quickly access data based on specific keys. Then we will look at linked lists, which are linear structures characterized by dynamic memory management. Unlike arrays, linked lists do not require contiguous memory allocation, offering flexibility in resizing and managing memory. Another topic will be insertion and deletion operations in linked lists and how they contribute to efficient data management.
 
-Moving on to trees, we'll discuss hierarchical structures that consist of nodes connected by edges. Trees are widely used for representing hierarchical relationships in data, such as organizational charts and file systems. We'll explore common tree operations, including traversal, insertion, deletion, and searching.
+When it comes to trees, we'll discuss hierarchical structures that consist of nodes connected by edges. Trees are widely used for representing hierarchical relationships in data, such as organizational charts and file systems. We'll explore common tree operations, including traversal, insertion, deletion, and searching.
 
-Lastly, we'll introduce the concept of LIFO (Last In, First Out) and its connection to data structures. LIFO principles are commonly implemented in stack data structures, where the last item added is the first one removed, resembling a stack of plates. We'll discuss how LIFO complements tree traversal algorithms and aids in managing memory allocation.
+Then at last we will go over and introduce the concept of LIFO (Last In, First Out) and its connection to data structures. LIFO principles are commonly implemented in stack data structures, where the last item added is the first one removed, resembling a stack of plates. We'll discuss how LIFO complements tree traversal algorithms and aids in managing memory allocation.
 
 Throughout this section, you'll gain a deeper understanding of the importance of these fundamental data structures in computer science and how they form the basis for efficient data organization and management. Mastering these concepts, you'll be well-equipped to tackle complex computational problems and design robust software solutions.
 
@@ -334,7 +342,7 @@ Overall, by recognizing the interconnectedness of maps, linked lists, trees, and
 
 ### B. Significance
 
-- Emphasize the significance of these elements in software design and implementation. Mastery of these fundamental data structures lays the foundation for solving complex computational problems and building robust software systems.
+-Emphasize the significance of these elements in software design and implementation. Mastery of these fundamental data structures lays the foundation for solving complex computational problems and building robust software systems.
 
 #### VII. Conclusion
 
@@ -348,8 +356,8 @@ In this subsection, we highlight the significance of understanding the interconn
 
 **Versatility and Adaptability:** One of the key strengths of maps, linked lists, trees, and LIFO-based structures is their versatility and adaptability. They can be applied to a wide range of problems and scenarios, providing scalable solutions that can adapt to changing requirements and environments.
 
-**Foundation for Algorithm Design:** Additionally, understanding these topics is essential for algorithm design and analysis. Many algorithms and data structures rely on maps, linked lists, trees, and LIFO-based structures as building blocks. By mastering these foundational concepts, developers can design more efficient algorithms that solve complex computational problems effectively.
+**Foundation for Algorithm Design:** Additionally, understanding these topics is essential for algorithm design and analysis. Many algorithms and data structures rely on maps, linked lists, trees, and LIFO-based structures as building blocks. When mastering these foundational concepts, developers can design more efficient algorithms that solve complex computational problems effectively.
 
-**Continued Relevance:** Despite advances in technology, the fundamentals of maps, linked lists, trees, and LIFO-based structures remain relevant in modern software development. By understanding their significance and applications, developers can leverage these concepts to create robust and efficient software systems that meet the evolving needs of users and businesses.
+**Continued Relevance:** Despite advances in technology, the fundamentals of maps, linked lists, trees, and LIFO-based structures remain relevant in modern software development. When understanding their significance and applications, developers can leverage these concepts to create robust and efficient software systems that meet the evolving needs of users and businesses.
 
 Overall, recognizing the significance of maps, linked lists, trees, and LIFO-based structures in computer science and software engineering enables developers to design more efficient algorithms and data structures, optimize performance, and solve complex computational problems effectively.
