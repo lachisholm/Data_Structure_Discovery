@@ -52,6 +52,9 @@ Throughout this section, you'll gain a deeper understanding of the importance of
 
 ### II. Maps (Week 06)
 
+(example of image construction )
+![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+
 #### A. Overview
 
 In this section, we delve into the fundamental data structure known as maps, often referred to as dictionaries in some programming languages. Maps are versatile key-value pair structures that enable efficient storage, retrieval, and manipulation of data. They play a crucial role in various computational tasks, providing a mechanism for associating keys with corresponding values and facilitating fast access to information.
