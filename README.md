@@ -55,7 +55,8 @@ Linked lists offer flexibility in storing and managing data without needing cont
 ![The San Juan Mountains are beautiful!](/your picture link here.jpg " your picture description here")
 ![Linked Lists!](/"C:\Users\lchis\OneDrive\Documents\GitHub\lachisholm\Datastructure 212\Data_Structure_Discovery\single link_double link_real_python.jpg" "Python Linked Lists")
 
-second try
+# second try
+
 ![Linked list]("C:\Users\lchis\OneDrive\Documents\GitHub\lachisholm\Datastructure 212\Data_Structure_Discovery\single link_double link \_real_python.jpg")
 
 Adding or deleting from lists is pretty simple, quick and easy to do, while it takes just a single step. If your looking for a specific item in the list it probably will take a bit longer because you have to go through the list checking each link until you find what your looking for.
