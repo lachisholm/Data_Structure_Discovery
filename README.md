@@ -29,6 +29,11 @@ Maps have a crucial role in various tasks they provide a way for associating key
 
 One thing I really like about maps especially in Python is that they offer a flexible and intuitive way to organize your data. Maps allow developers to store information in great formats and then it allows you to access the information quickly when needed. Maps associate each value with a unique key. Maps make it so you can efficiently lookup operations. Maps have an ability to handle your data types for both keys and values and can handle dynamic resizing if you data size changes.
 
+### Image insert here (remember to )
+
+![The San Juan Mountains are beautiful!](/your picture link here.jpg " your picture description here")
+![Picture Title here!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+
 Key characteristics of maps include their ability to handle arbitrary data types for both keys and values, their support for dynamic resizing to accommodate changing data sizes, and their efficient implementation of key-based operations such as insertion, deletion, and retrieval.
 
 In addition to their basic operations, maps support a wide range of functionalities and features, including key-value pair iteration, duplicate key handling, and error handling mechanisms for handling non-existent keys or other exceptional conditions.
@@ -39,13 +44,20 @@ Overall, maps serve as indispensable tools in computer science and software engi
 
 ### A. Overview
 
+What is a Linked List?
+
+**A Linked list is a linear data Structure consisting of nodes, where each node contains a value and a reference( or pointer) to the next node in the sequence. Linked lists do not require contiguous memory allocation offering flexibility in storing and managing data. **
+
 Linked lists offer flexibility in storing and managing data without needing continuous memory.There are nodes in a linked list and each node holds a value and a pointer to the next link. Linked lists can grow larger or get smaller as needed because they have the ability to allocate memory as they need too. Linked lists come in a variation of types, there is linked lists, double linked lists, and circular linked lists. Each type of list has it own way of moving through the links. What I really liked about linked lists is the way it is so easy to add or remove items, especially at the beginning or the end of the lists. This is what we call dynamic memory management and is very handy when you aren't sure how much space you will need when you first start using the list.
 
 ### Image insert here (remember to )
 
+![The San Juan Mountains are beautiful!](/your picture link here.jpg " your picture description here")
+![Picture Title here!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+
 Adding or deleting from lists is pretty simple, quick and easy to do, while it takes just a single step. If your looking for a specific item in the list it probably will take a bit longer because you have to go through the list checking each link until you find what your looking for.
 Linked Lists can also be used in creating or building out stacks and queues.
 
-> **_Stacks - While there are many different examples to what you can relate stacks to, the easiest is >a stack of plates, where you can only add or remove items from the top of the stack. _**
+> **_Stacks - While there are many different examples to what you can relate stacks to, the easiest is a stack of plates, where you can only add or remove items from the top of the stack. _**
 >
 > **_Queues - like a line, you add items to the back and remove them from the front._**
