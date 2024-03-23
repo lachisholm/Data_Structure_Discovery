@@ -11,7 +11,7 @@ BYU Idaho Winter 2024
 
 As part of this discussion I will cover the fundamental data structures. These structures are concepts that are the basics of data structures in the computer science field. I found that many of these structures are easy to learn with reading the right sources and information that is found over the internet and throughout Data Science books.Here is a list of the concepts that I will cover in this reading.
 
-    <li>* [Overview for this project]
+    <li>[Overview for this project]
         (https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md).
 
     * [Map - also known as Dictionaries](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Maps.md).
