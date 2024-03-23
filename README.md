@@ -13,10 +13,15 @@ As part of this discussion I will cover the fundamental data structures. These s
 
 <ul>
     <li>- This site was built using [Overview for this project](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md).
-    <li>-[Map] (also known as dictionaries)
-    <li>-[Linked lists]
-    <li>-[Trees]
-    <li>-[LIFO] (Last In, First Out (LIFO) concept)
+
+    <li>-[Map] (also known as dictionaries)(https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Maps.md)
+
+    <li>-[Linked lists](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Links.md)
+
+    <li>-[Trees](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Trees.md)
+
+    <li>-[LIFO] (Last In, First Out (LIFO) concept)(https://github.com/lachisholm/Data_Structure_Discovery/blob/main/LIFO.md)
+
 </ul>
 
 These data structures are essential for organizing and managing data efficiently in various algorithms and applications that we will build throughout a career and they are so fundamental that they are essential to learn.
