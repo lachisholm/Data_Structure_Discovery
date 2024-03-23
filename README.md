@@ -22,6 +22,8 @@ As part of this discussion I will cover the fundamental data structures. These s
 
     <li>-[LIFO] (Last In, First Out (LIFO) concept)(https://github.com/lachisholm/Data_Structure_Discovery/blob/main/LIFO.md)
 
+compou
+
 </ul>
 
 These data structures are essential for organizing and managing data efficiently in various algorithms and applications that we will build throughout a career and they are so fundamental that they are essential to learn.
