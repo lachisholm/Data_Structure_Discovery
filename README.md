@@ -14,13 +14,13 @@ As part of this discussion I will cover the fundamental data structures. These s
 <ul>
     <li>[Overview for this project](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md).
 
-    <li>-[Map - also known as Dictionaries](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Maps.md)
+    <li>-[Map - also known as Dictionaries](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Maps.md).
 
-    <li>-[Linked lists](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Links.md)
+    <li>-[Linked lists](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Links.md).
 
-    <li>-[Trees](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Trees.md)
+    <li>-[Trees](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Trees.md).
 
-    <li>-[LIFO - Last In, First Out](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/LIFO.md)
+    <li>-[LIFO - Last In, First Out](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/LIFO.md).
 
 </ul>
 
