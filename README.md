@@ -11,27 +11,7 @@ BYU Idaho Winter 2024
 
 As part of this discussion I will cover the fundamental data structures. These structures are concepts that are the basics of data structures in the computer science field. I found that many of these structures are easy to learn with reading the right sources and information that is found over the internet and throughout Data Science books.Here is a list of the concepts that I will cover in this reading.
 
-<ul>
-    <li>[Overview for this project]
-        (https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md).
-<ul>
-
-<ul>
-<li>[Map - also known as Dictionaries](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Maps.md).
-
-<ul>
-
-<ul>
-<li>[Linked lists](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Links.md).
-<ul>
-
-<ul>
-<li>[Trees](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Trees.md).
-<ul>
-
-<ul>
-<li>[LIFO - Last In, First Out](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/LIFO.md).
-<ul>
+-[Overview for this project](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md). -[Map - also known as Dictionaries](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Maps.md). -[Linked lists](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Links.md). -[Trees](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Trees.md). -[LIFO - Last In, First Out](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/LIFO.md).
 
 These data structures are essential for organizing and managing data efficiently in various algorithms and applications that we will build throughout a career and they are so fundamental that they are essential to learn.
 
