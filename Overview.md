@@ -1,5 +1,3 @@
-### This page will be the overview
-
 # Python Data Structure Discovery
 
 ## Exploration
