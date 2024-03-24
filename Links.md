@@ -28,7 +28,7 @@ Steps for creating a linked list
 4. Insert nodes
 5. Delete nodes if applicable
 
-![Train](trains.jpg "Trains")
+![Train](Trains.jpg "Trains")
 
 "A common example of a linked list is a train, all cars are connected together singly. To compare this with computer applications, the undo functionality of an application can be a linked list and the redo would be another linked list going only in one direction to the last operation."Study.com
 
