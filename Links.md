@@ -1,12 +1,6 @@
-### This page is about Links
+# Linked Lists
 
-[Back to Overview](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md)
-
-## Linked Lists (Week 07)
-
-### A. Overview
-
-What is a Linked List?
+### What is a Linked List?
 
 Linked lists are a linear data structure consisting of elements (nodes) that are linked
 together using pointers or references. Unlike arrays, linked lists do not require
@@ -31,3 +25,5 @@ Linked Lists can also be used in creating or building out stacks and queues.
 > **_Stacks - While there are many different examples to what you can relate stacks to, the easiest is a stack of plates, where you can only add or remove items from the top of the stack. _**
 >
 > **_Queues - like a line, you add items to the back and remove them from the front._**
+
+[Back to Overview](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md)
