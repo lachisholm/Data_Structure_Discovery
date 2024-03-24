@@ -1,4 +1,4 @@
-# Data_Structure_Discovery
+# Python Data Structure Discovery
 
 Exploration of Maps, Linked Lists, Trees, and (LIFO) stacks
 BYU Idaho Winter 2024
