@@ -16,7 +16,7 @@ loraperrychisholm@gmail.com
 Imagine a world of discovery!
 Welcome to my Tutorial, a gateway for you to learn about;
 
-![Linked list](gateway.jpg "Linked Lists")
+![Gateway](gateway.jpg "Garden Gate - Discovery Photos")
 
 ### Data Structures.
 
