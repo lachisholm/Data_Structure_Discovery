@@ -21,15 +21,13 @@ Understanding data structures and their underlying concepts is important in comp
 
 As part of this discussion I will cover the fundamental data structures. These structures are concepts that are the basics of data structures in the computer science field. I found that many of these structures are easy to learn with reading the right sources and information that is found over the internet and throughout Data Science books.Here is a list of the concepts that I will cover in this reading and tutorial.
 
-- [Links](Links.md)
-
 - [Map](Maps.md)
 
-[Linked lists](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Links.md)
+- [Linked lists](Links.md)
 
-[Trees](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Trees.md)
+- [Trees](Trees.md)
 
-[LIFO - Last In, First Out](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/LIFO.md)
+- [LIFO](LIFO.md)
 
 All four concepts’ maps, linked lists, stacks(LIFO), and trees all aim to efficiently organize
 and manage data, each tailored to specific needs.
