@@ -1,6 +1,6 @@
 # Linked Lists
 
-![Linked list](Linked_list_header_dan_bader.png "Header pic")
+![Linked list](LLPY.png "Header pic")
 
 ### What is a Linked List?
 
