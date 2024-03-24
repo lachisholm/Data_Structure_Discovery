@@ -13,4 +13,4 @@ applications requiring organized and structured data.
 
 Trees are
 
-![Linked list](linkedlist.jpg "Linked Lists")
+![Trees](treeslideserve.jpg "Trees")
