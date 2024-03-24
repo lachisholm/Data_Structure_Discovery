@@ -3,6 +3,7 @@
 ## Exploration
 
 Maps, Linked Lists, Trees, and (LIFO) stacks
+
 BYU Idaho Winter 2024
 CSE 212
 
