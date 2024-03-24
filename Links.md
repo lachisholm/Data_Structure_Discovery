@@ -1,5 +1,7 @@
 # Linked Lists
 
+![Linked list](Linked_list_header_dan_bader.png "Header pic")
+
 ### What is a Linked List?
 
 Linked lists are a linear data structure consisting of elements (nodes) that are linked
