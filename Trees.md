@@ -13,4 +13,4 @@ applications requiring organized and structured data.
 
 Trees are
 
-![Trees](treeslideserve.jpg "Trees")
+![Trees](treepic.jpg "Trees")
