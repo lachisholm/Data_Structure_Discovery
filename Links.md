@@ -30,4 +30,4 @@ Linked Lists can also be used in creating or building out stacks and queues.
 
 > **_Stacks - While there are many different examples to what you can relate stacks to, the easiest is a stack of plates, where you can only add or remove items from the top of the stack. _**
 >
-> **_Queues - like a line, you add items to the back and remove them from the front._** > ![Linked
+> **_Queues - like a line, you add items to the back and remove them from the front._** >
