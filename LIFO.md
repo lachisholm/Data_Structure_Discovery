@@ -21,4 +21,4 @@ through one branch to its leaves before backtracking to explore other branches.
 
 [Back to Overview](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md)
 
-![Linked list](linkedlist.jpg "Linked Lists")
+![Linked list](LIFOyoutube.jpg "LIFO vs FIFO")
