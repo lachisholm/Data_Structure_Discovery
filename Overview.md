@@ -5,7 +5,7 @@ Maps, Linked Lists, Trees, and (LIFO) stacks
 BYU Idaho Winter 2024
 CSE 212
 
-# Contact me
+## Contact me
 
 Lora Chisholm
 loraperrychisholm@gmail.com
