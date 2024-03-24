@@ -23,7 +23,7 @@ As part of this discussion I will cover the fundamental data structures. These s
 
 - [Links](Links.md)
 
-[Map - also known as Dictionaries](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Maps.md)
+- [Map](Maps.md)
 
 [Linked lists](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Links.md)
 
