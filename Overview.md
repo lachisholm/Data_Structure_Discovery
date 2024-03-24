@@ -1,8 +1,22 @@
 ### This page will be the overview
 
-## I. Introduction
+# Python Data Structure Discovery
 
-### A. Overview
+## Exploration
+
+Maps, Linked Lists, Trees, and (LIFO) stacks
+BYU Idaho Winter 2024
+CSE 212
+
+# Contact me
+
+Lora Chisholm
+loraperrychisholm@gmail.com
+
+Imagine a world of discovery!
+Welcome to my Tutorial, a possible gateway for you to learn about;
+
+### Data Structures.
 
 Understanding data structures and their underlying concepts is important in computer science because they form the foundation upon which efficient algorithms are built and aptimized. My own personal journey in learning data structures has consistently underscored the significance of selecting the appropriate data structure for a given problem. This choice directly influences the commplexity, efficiency, and scalability of the solution. Data structures like arrays, linked lists, stacks, queues, trees, and graphs each offer unique advantages and are suited to specific types of problems and computational tasks. Mastery of these structures not only enables the development of more effective algorithms but also fosters a deeper comprehension of how information can be organized, accessed, and manipulated to meet the demands of both simple and complex systems. A solid grasp of data structures is indispensable for any computer scientist or software developer aspiring to solve real world problems efficiently and innovate within the field.
 
