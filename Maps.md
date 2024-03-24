@@ -32,4 +32,4 @@ In addition to their basic operations, maps support a wide range of functionalit
 
 Overall, maps serve as indispensable tools in computer science and software engineering, providing a convenient and efficient way to manage data and solve various computational problems. In the subsequent sections, we will explore the characteristics, operations, and applications of maps in greater detail, highlighting their importance and versatility in modern programming paradigms.
 
-![Linked list](linkedlist.jpg "Linked Lists")
+![Maps](Maps.jpg "Maps")
