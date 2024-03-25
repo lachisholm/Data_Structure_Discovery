@@ -100,14 +100,63 @@ child2 = TreeNode("Child 2", child1)
 - Height of a node is the number of edges on the longest path from the node to a leaf.
   The height of a tree is the height of its root node.
 
+  - The height of a node to be the number of edges on the longest path from the node to a leaf.
+  - A leaf node having no children, has a height of 0.
+
+Here is python code that shows the treenode class represents each node, where a node can have multiple children stored in a list. The add_child method is used to establish parent child relationships. The height function caculates the height of a node.
+For a node with no children(a leaf), the height is 0
+For other nodes, it recursively finds the height of each child node, selects the maximum height among them, and adds 1(representing the edge between the node and its child)
+
+```python
+class TreeNode:
+    def __init__(self, value:)
+        self.value = value
+        self.children = []
+
+    def add-child(self, child):
+        self.children.append(child)
+
+def height(node):
+    # This is the Base case, if it has no children, it's a leaf
+    if not node.children
+        return 0
+
+    else:
+        # Recursive 1+ the height of the tallest child
+        return 1 + max(height(child)for child in node.children)
+
+root = TreeNode("Root")
+child1 = TreeNode("Child1")
+child2 = TreeNode("Child2")
+leaf1 = TreeNode("Leaf 1")
+leaf2 = TreeNode("Leaf 2")
+
+root.add_child(child1)
+root.add_child(child2)
+child1.add_child(leaf1)
+child2.add_child(leaf2)
+
+#out puts 2, since the longest path from root to a leaf is 2 edges
+print(height(root))
+
+```
+
 - Practical Applications of trees
   Trees are widely used in computer Science for various purposes.
 
+  (Soon to come)
+
 - Binary Search Tree(BST): Used for efficient searching and sorting
+
+  (Soon to come)
 
 - File Systems: Directories and files are organized in a tree structure
 
+  (Soon to come)
+
 - Databases: Trees are used in databases to enable quick data retrieval
+
+  (Soon to come)
 
 Here is a simple python code inserting a new node in a Binary Search Tree
 
