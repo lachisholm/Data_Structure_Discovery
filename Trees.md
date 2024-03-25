@@ -1,11 +1,13 @@
-### Trees in Data Structures
+# Trees in Data Structures
 
-![Tree](treestructure.jpg "Tree Structure-medium")
+![Tree](treealgor.jpg "Tree Structure-python by Analytics Vidhya")
 
 Trees are hierarchical data structures composed of nodes connected by edges. Each
 node can have zero or more child nodes, forming a branching structure. Trees are
 widely used for representing hierarchical relationships, such as file systems,
 organization charts, or hierarchical data in databases. The topmost node is called the root, and every node(except the root) is connected by an edge from exactly one other node, known as its parent. Like a family, nodes with the same parent are siblings, and nodes without children are called leaves.
+
+![Tree](treestructure.jpg "Tree Structure-medium")
 
 They also play a crucial role in algorithms and data structures, with various types of trees like binary trees, binary search trees, AVL trees, and B-trees optimized for different purposes. Trees offer efficient search, insertion, and deletion operations, making them essential in many
 applications requiring organized and structured data.
