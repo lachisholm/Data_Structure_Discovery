@@ -5,7 +5,11 @@
 Trees are hierarchical data structures composed of nodes connected by edges. Each
 node can have zero or more child nodes, forming a branching structure. Trees are
 widely used for representing hierarchical relationships, such as file systems,
-organization charts, or hierarchical data in databases. The topmost node is called the root, and every node(except the root) is connected by an edge from exactly one other node, known as its parent. Like a family, nodes with the same parent are siblings, and nodes without children are called leaves.
+organization charts, or hierarchical data in databases.
+
+The topmost node is called the root, and every node(except the root) is connected by an edge from exactly one other node, known as its parent.
+
+Like a family, nodes with the same parent are siblings, and nodes without children are called leaves.
 
 ![Tree](treestructure.jpg "Tree Structure-medium")
 
@@ -25,24 +29,26 @@ class TreeNode:
         self.children = []
 ```
 
-A Root is the topmost node in a tree.
-There is exactly one root per tree, and it has no parent.
+- A Root is the topmost node in a tree.
+  There is exactly one root per tree, and it has no parent.
 
-A Leaf is a node with no children.
-Leaves are at the bottommost level of a tree
+- A Leaf is a node with no children.
+  Leaves are at the bottommost level of a tree
 
-Depth of a node is the number of edges from the root to the node.
-It is an indication of the level at which the node sits in the tree.
+- Depth of a node is the number of edges from the root to the node.
+  It is an indication of the level at which the node sits in the tree.
 
-Height of a node is the number of edges on the longest path from the node to a leaf.
-The height of a tree is the height of its root node.
+- Height of a node is the number of edges on the longest path from the node to a leaf.
+  The height of a tree is the height of its root node.
 
-Practical Applications of trees
-Trees are widely used in computer Science for various purposes.
+- Practical Applications of trees
+  Trees are widely used in computer Science for various purposes.
 
-Binary Search Tree(BST): Used for efficient searching and sorting
-File Systems: Directories and files are organized in a tree structure
-Databases: Trees are used in databases to enable quick data retrieval
+- Binary Search Tree(BST): Used for efficient searching and sorting
+
+- File Systems: Directories and files are organized in a tree structure
+
+- Databases: Trees are used in databases to enable quick data retrieval
 
 Here is a simple python code inserting a new node in a Binary Search Tree
 
