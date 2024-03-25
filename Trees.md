@@ -35,10 +35,31 @@ class TreeNode:
 ```
 
 - A Root is the topmost node in a tree.
-  There is exactly one root per tree, and it has no parent.
+  There is exactly one root per tree, and it has no parent. My code snip below shows a class where each node has a value and a list of children. The root node is then created by intantiating the TreeNode class with the value RootNode
+
+```python
+
+class TreeNode:
+    def __init__(self, value):
+        self.value = value
+        self.children = []
+
+# Here is how you create the root node
+root = TreeNode("Root Node")
+```
 
 - A Leaf is a node with no children.
   Leaves are at the bottommost level of a tree
+
+```python
+class TreeNode:
+    def__init__(self, value):
+        self.value = value
+        self.children = []
+
+# Here is how you create a leaf node_since the leaf has no children, we don't add any children to the list.
+leaf = TreeNode("Leaf Node")
+```
 
 - Depth of a node is the number of edges from the root to the node.
   It is an indication of the level at which the node sits in the tree.
