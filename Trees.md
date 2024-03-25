@@ -57,7 +57,8 @@ class TreeNode:
         self.value = value
         self.children = []
 
-# Here is how you create a leaf node_since the leaf has no children, we don't add any children to the list.
+# Here is how you create a leaf node_since the leaf has no children
+ we don't add any children to the list.
 leaf = TreeNode("Leaf Node")
 ```
 
