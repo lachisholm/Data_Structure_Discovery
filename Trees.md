@@ -61,6 +61,6 @@ def insert(root, key):
 Trees are a fundamental data structure in computer science with a wide range of applications.
 Understanding how they work and how to manipulate them is crucial for software development and algoithm design
 
-![Trees](treepic.jpg "Trees")
+![Trees](Treepic.jpg "Trees")
 
 [Back to Overview](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md)
