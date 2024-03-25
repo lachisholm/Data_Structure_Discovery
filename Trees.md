@@ -144,19 +144,19 @@ print(height(root))
 - Practical Applications of trees
   Trees are widely used in computer Science for various purposes.
 
-  (Soon to come)
+  (under construction !)
 
 - Binary Search Tree(BST): Used for efficient searching and sorting
 
-  (Soon to come)
+  (under construction !)
 
 - File Systems: Directories and files are organized in a tree structure
 
-  (Soon to come)
+  (under construction !)
 
 - Databases: Trees are used in databases to enable quick data retrieval
 
-  (Soon to come)
+  (under construction !)
 
 Here is a simple python code inserting a new node in a Binary Search Tree
 
