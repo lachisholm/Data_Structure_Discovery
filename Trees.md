@@ -12,8 +12,6 @@ Understanding how they work and how to manipulate them is crucial for software d
 
 ![Trees](Treepic.jpg "Trees")
 
-[Back to Overview](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md)
-
 The topmost node is called the root, and every node(except the root) is connected by an edge from exactly one other node, known as its parent.
 
 Like a family, nodes with the same parent are siblings, and nodes without children are called leaves.
@@ -72,3 +70,5 @@ def insert(root, key):
     else:
         if root.key < key:
 ```
+
+[Back to Overview](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md)
