@@ -63,7 +63,39 @@ leaf = TreeNode("Leaf Node")
 ```
 
 - Depth of a node is the number of edges from the root to the node.
-  It is an indication of the level at which the node sits in the tree.
+  It is an indication of the level at which the node sits in the tree. Meaning it essentially measures how far a node is from the root. So you could also say it's the length of the path from the root to the node. The depth of the root node itself is always zero since there are no edges to traverse to reach it.
+
+        - So let's assume a structure where each node knows its parent, allowing us to directly calculate the depth by counting how many times we can move from the node to its parent until we reach the root.
+
+        - The TreeNode class represents each node with a value and an optional parent
+
+        - The depth function calcualates the depth by traversing up the parent chain until it finds a node without a parent, which would be the root.
+
+        - The depth counter increments with each step up
+
+        - The example constructs a simple tree where 'child2' is a grandchild of the 'root', making its depth 2
+
+```python
+
+class TreeNode:
+    def __init__(self, value, parent=None):
+        self.value = value
+        self.parent = parent
+
+    def depth(node);
+    depth = 0
+    while node.parent:
+        node = node.parent
+        depth += 1
+    return depth
+
+# This is how to set up a simple tree
+root = TreeNode("Root")
+# This is the child of the root
+child1 = TreeNode("Child 1", root)
+# This is the child of the child, which makes it the grandchild of the root
+child2 = TreeNode("Child 2", child1)
+```
 
 - Height of a node is the number of edges on the longest path from the node to a leaf.
   The height of a tree is the height of its root node.
