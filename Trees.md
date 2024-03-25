@@ -65,15 +65,15 @@ leaf = TreeNode("Leaf Node")
 - Depth of a node is the number of edges from the root to the node.
   It is an indication of the level at which the node sits in the tree. Meaning it essentially measures how far a node is from the root. So you could also say it's the length of the path from the root to the node. The depth of the root node itself is always zero since there are no edges to traverse to reach it.
 
-        - So let's assume a structure where each node knows its parent, allowing us to directly calculate the depth by counting how many times we can move from the node to its parent until we reach the root.
+  - So let's assume a structure where each node knows its parent, allowing us to directly calculate the depth by counting how many times we can move from the node to its parent until we reach the root.
 
-        - The TreeNode class represents each node with a value and an optional parent
+  - The TreeNode class represents each node with a value and an optional parent
 
-        - The depth function calcualates the depth by traversing up the parent chain until it finds a node without a parent, which would be the root.
+  - The depth function calcualates the depth by traversing up the parent chain until it finds a node without a parent, which would be the root.
 
-        - The depth counter increments with each step up
+  - The depth counter increments with each step up
 
-        - The example constructs a simple tree where 'child2' is a grandchild of the 'root', making its depth 2
+  - The example constructs a simple tree where 'child2' is a grandchild of the 'root', making its depth 2
 
 ```python
 
