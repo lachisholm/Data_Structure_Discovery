@@ -191,4 +191,65 @@ def insert(root, key):
         if root.key < key:
 ```
 
+### Sample Use Problem
+
+There will be many ways that you use trees in Data Structure and in programming in the real world. So let's look at one.
+
+Suppose your're tasked with managing an inventory for a bookstore. Each book is categorized based on its genre, and within each genre, books are further organized by author name. You decide to use a tree data structure to efficiently manage and access your inventory.
+
+The first thing you would have to do is to create a simple tree structure using your language of choice. Mine is Python. So I would create a simple tree structure in Python to represent book genres as the first level of nodes and authors as the second level. This structure will help quickly access all the books by a specific author within any genre.
+
+How To:
+
+First it is needed to define a "TreeNode" class to represent each node in the tree. The root nodes of the tree will represent different genres, and each genre node will have child nodes representing authors in that genre
+
+Here is what you could do to build your structure up to the author level.
+
+```Python
+
+class TreeNode:
+    def __init__(self, name):
+        self.name = name
+        self.children = []
+
+    def add_child(self, child_node):
+        self.children.append(child_node)
+
+# This will create the root node for the tree
+root = TreeNode("Bookstore")
+
+# This will create the genre node(children of the root)
+fiction =  TreeNode("Fiction")
+non_fiction = TreeNode("Non-Fiction")
+
+# Adding genre nodes to the root's children
+root.add_child(fiction)
+root.add_child(non_fiction)
+
+#This is for creating authors under "Fiction"
+author1 = TreeNode("Author A")
+author2 = TreeNode("author B")
+
+# Adding authors to the fiction genre
+fiction.add_child(author1)
+fiction.add_child(author2)
+
+# Simple display function to show the structure
+def display_tree(node, level= 0):
+    print("  " * level + node.name)
+    for child in node.children:
+        display_tree(chrild, level+1)
+
+# This is where you Display the bookstore inventory structure
+display-tree(root)
+```
+
+Your Challenge:
+
+Make your own libary now you know how to get started. Give it more than fiction, non-fiction. Choose different areas like children section, adults, teens, and give each of these there own classifications of fiction, non -fiction, adventure, the classics, and anything else that you can think of to bring your libary to life for different ages.
+
 [Back to Overview](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md)
+
+```
+
+```
