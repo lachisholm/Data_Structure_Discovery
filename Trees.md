@@ -22,8 +22,25 @@ They also play a crucial role in algorithms and data structures, with various ty
 applications requiring organized and structured data.
 
 A node is a basic unit of a tree.
-A node contains data and links to other nodes.
-Each node in a tree can have zero or more child nodes.
+Here is Python code to show a single node with a value
+
+```python
+
+class Node:
+    def __init__(self, value):
+        self.value = value  # Holds the data of the node
+
+# Creating a single node with a value
+single_node = Node(10)
+
+# Displaying the value of the created node
+print(f"Node value: {single_node.value}")
+
+```
+
+The Node class simply holds a value, and the concept of children nodes is not shown above, this is because the node is an independent unit.
+
+When we want the node to have more than the independent unit, then we link it to children where a node contains data and links to other nodes. Each node in a tree can have zero or more child nodes.
 
 An example of this in python could be written like this
 
@@ -50,6 +67,7 @@ root = TreeNode("Root Node")
 
 - A Leaf is a node with no children.
   Leaves are at the bottommost level of a tree
+  Here is how you create a leaf node since the leaf has no children.
 
 ```python
 class TreeNode:
@@ -57,7 +75,6 @@ class TreeNode:
         self.value = value
         self.children = []
 
-# Here is how you create a leaf node_since the leaf has no children
 # we don't add any children to the list.
 leaf = TreeNode("Leaf Node")
 ```
