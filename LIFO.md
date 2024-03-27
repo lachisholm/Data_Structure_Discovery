@@ -34,6 +34,8 @@ Use Cases: FIFO is widely used in resource scheduling such as printer queues or 
 | Accessibility | Top Element only                                    | Front and rear elements                                |
 | Use Cases     | Function calls, Undo operations, Expression parsing | Resource Scheduling, Buffering, Asynchronous transfers |
 
+![Linked list](linkedlist.jpg "Linked Lists - real python")
+
 The LIFO concept does not directly apply to maps, linked lists, and trees however LIFO can be
 associated with these data structures in the context of specific applications or operations
 Starting with maps or associative arrays, which are collections of key value pairs. They do not
@@ -51,8 +53,93 @@ LIFO(Stack) Optimized for scenarios where the most recent data is of the highest
 
 FIFO(Queue) Best suited for scenarios where the order of operations or data processing must remain consistent over time. It is used in scheduling and sequential processing tasks where the first input should be the first to be processed or executed.
 
+|Operations and Big O Notation
+
+LIFO(stack)
+
+- Push(Addition) Adds an element to the top, the effieciency is O(1)
+- Pop(Removal) Removes the top element. O(1)
+- Peek (Access Next) Returns the top element without removing O(1)
+- IsEmpty (Check Empty): Checks if the stack is empty. O(1)
+
+FIFO(Queue)
+
+- Enqueue(Addition): Adds an element to the end. O(1)
+- Dequeue(Removal) Removes the first element O(1)
+- Front (Access Next): Returns the first element without removing O(1)
+- IsEmpty(Check Empty) Checks if the queue is empty O(1)
+
+Here is a LIFO (stack Implementation)
+
+```Python
+class Stack:
+    def __init__(self):
+        self.items = []
+
+    def push(self, item):
+
+        """O(1) """
+        self.items.append(item)
+
+    def pop(self):
+        """O(1)"""
+        if not self.is_empty():
+            return self.items.pop()
+        return None
+
+    def peek(self):
+        """O(1)"""
+        if not self.is_empty()
+            return self.items[-1]
+        return None
+
+    def is_empty(self):
+        """O(1) operation"""
+        return len(self.items) == 0
+
+# Example usage
+stack = Stack()
+stack.push(1)
+stack.push(2)
+print(stack.peek())
+stack.pop()
+print(stack.peek())
+```
+
+Here is FIFO implementation using a collections.deque in python
+
+```Python
+from collections import deque
+
+class Queue:
+    def __init__(self):
+        self.items = deque()
+
+    def enqueue(self, item):
+        """O(1)"""
+        self.items.append(item)
+
+    def dequeue(self):
+        """O(1)"""
+        if not self.is_empty()
+        return self.items.popleft()
+    return None
+
+    def front(self):
+        """O(1)"""
+        if not self.is_empty():
+            return self.items[0]
+        return None
+
+    def is_empty(self):
+        """O(1)"""
+        return len(self.items) == 0
+
+queue = Queue()
+
 Understanding and appplying the appropriate data structure based on LIFO or FIFO principles is crucial in developing efficient algorithms and systems.
 
-[Back to Overview](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md)
-
 ![Linked list](LIFOyoutube.jpg "LIFO vs FIFO")
+
+[Back to Overview](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md)
+```
