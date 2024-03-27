@@ -47,6 +47,12 @@ intrinsically operated on a LIFO principle, but tree traversal algorithms, such 
 (DFS) can utilize a stack and the LIFO principle to explore the depth of the tree first, moving
 through one branch to its leaves before backtracking to explore other branches.
 
+LIFO(Stack) Optimized for scenarios where the most recent data is of the highest priority. It is used in applications where the order of operations must be reversed or last performed operation needs to be accessed quickly.
+
+FIFO(Queue) Best suited for scenarios where the order of operations or data processing must remain consistent over time. It is used in scheduling and sequential processing tasks where the first input should be the first to be processed or executed.
+
+Understanding and appplying the appropriate data structure based on LIFO or FIFO principles is crucial in developing efficient algorithms and systems.
+
 [Back to Overview](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md)
 
 ![Linked list](LIFOyoutube.jpg "LIFO vs FIFO")
