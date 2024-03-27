@@ -137,10 +137,12 @@ class Queue:
 
 queue = Queue()
 
-Understanding and appplying the appropriate data structure based on LIFO or FIFO principles is crucial in developing efficient algorithms and systems.
+
 
 
 ```
+
+Understanding and appplying the appropriate data structure based on LIFO or FIFO principles is crucial in developing efficient algorithms and systems.
 
 ![Linked list](LIFOyoutube.jpg "LIFO vs FIFO")
 
