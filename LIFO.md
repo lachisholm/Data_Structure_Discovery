@@ -139,7 +139,9 @@ queue = Queue()
 
 Understanding and appplying the appropriate data structure based on LIFO or FIFO principles is crucial in developing efficient algorithms and systems.
 
+
+```
+
 ![Linked list](LIFOyoutube.jpg "LIFO vs FIFO")
 
 [Back to Overview](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md)
-```
