@@ -1,4 +1,4 @@
-# Maps
+# Maps (Additional support page)
 
 Maps, known in some programming languages as dictionaries, are versatile data structures that store data in key-value pairs. They offer efficient lookup, insertion, and deletion operations, making them ideal for scenarios requiring fast access to data based on unique identifiers. Maps are used in various applications, including storing configuration settings, managing user information, and implementing caching mechanisms.
 
