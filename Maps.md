@@ -32,7 +32,7 @@ Advanced implementations of maps use mechanisms like hashing and balanced trees 
 
 ### Images
 
-![Maps](Maps.png"map")
+![Maps](Map.png"map")
 
 ---
 
