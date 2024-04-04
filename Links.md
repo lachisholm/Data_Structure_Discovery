@@ -37,10 +37,135 @@ Linked lists offer flexibility in storing and managing data without needing cont
 Steps for creating a linked list
 
 1. Create a node
+
+```Python
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+```
+
 2. Connect nodes
+
+```Python
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+class LinkedList:
+    def __init__(self):
+        self.head = None
+
+```
+
 3. Append nodes
+
+```Python
+def append(self, data):
+    new_node = Node(data)
+    if self.head is None:
+        self.head = new_node
+        return
+    last = self.head
+    while last.next:
+        last = last.next
+    last.next = new_node
+```
+
 4. Insert nodes
-5. Delete nodes if applicable
+
+```Python
+def insert(self, prev_node, data):
+    if not prev_node:
+        print("Previous node must inLinkedList.")
+        return
+    new_node = Node(data)
+    new_node.next = prev_node.next
+    prev_node.next = new_node
+```
+
+5. Delete nodes by Value
+
+```Python
+
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+class LinkedList:
+    def __init__(self):
+        self.head = None
+
+    def delete_node_by_value(self, key):
+        temp = self.head
+
+        # If the list is empty
+        if temp is None:
+            return
+
+        # If the node to be deleted is the head node
+        if temp is not None and temp.data == key:
+            self.head = temp.next
+            temp = None
+            return
+
+        # Search for the node to be deleted
+        while temp is not None:
+            if temp.data == key:
+                break
+            prev = temp
+            temp = temp.next
+
+        # If the key was not present
+        if temp == None:
+            print("The value was not found in the list.")
+            return
+
+        # Unlink the node from the list
+        prev.next = temp.next
+        temp = None
+
+```
+
+Deleting a node by its position in the list requires a different approach
+
+6. Delete a node by Position
+
+```Python
+
+    def delete_node_by_position(self, position):
+        if self.head is None:
+            return
+
+        temp = self.head
+
+        # If head needs to be removed
+        if position == 0:
+            self.head = temp.next
+            temp = None
+            return
+
+        # Find the previous node of the node to be deleted
+        for i in range(position - 1):
+            temp = temp.next
+            if temp is None:
+                break
+
+        # If position is more than the number of nodes
+        if temp is None or temp.next is None:
+            print("The position is beyond the list length.")
+            return
+
+        # Node temp.next is the node to be deleted
+        # Store pointer to the next of node to be deleted
+        next = temp.next.next
+
+        # Unlink the node from the list
+        temp.next = None
+        temp.next = next
+```
 
 ## Using a Linked List in Python
 
