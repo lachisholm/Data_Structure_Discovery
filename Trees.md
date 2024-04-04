@@ -158,22 +158,17 @@ print(height(root))
 
 ```
 
-- Practical Applications of trees
-  Trees are widely used in computer Science for various purposes.
+### Practical Applications of Trees in Computer Science
 
-  (under construction !)
+Trees, as a pivotal data structure, find extensive application in various computer science domains due to their hierarchical nature and efficiency in managing and organizing data.
 
-- Binary Search Tree(BST): Used for efficient searching and sorting
+- **Binary Search Trees (BST):** BSTs are crucial for efficient searching and sorting operations. They store data in a structured manner, where each node has a maximum of two children. This property ensures that operations like search, insert, and delete can be performed in logarithmic time complexity, making BSTs highly effective for managing sorted data.
 
-  (under construction !)
+- **File Systems:** In operating systems, trees play a fundamental role in organizing files and directories. The tree structure allows for a hierarchical organization where directories can contain files or other directories. This setup mimics a real-world filing system, facilitating efficient file storage, retrieval, and management.
 
-- File Systems: Directories and files are organized in a tree structure
+- **Databases:** Trees are integral to the design of database indexing mechanisms, particularly through variants like B-trees and B+-trees. These structures enable databases to quickly locate records, significantly reducing the time required for data retrieval operations. Their ability to maintain sorted data and support efficient insertion and deletion operations makes them indispensable for database management systems seeking to optimize performance.
 
-  (under construction !)
-
-- Databases: Trees are used in databases to enable quick data retrieval
-
-  (under construction !)
+These applications underscore the utility of trees in enhancing data accessibility, organization, and processing across different computer science disciplines.
 
 Here is a simple python code inserting a new node in a Binary Search Tree
 
