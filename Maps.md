@@ -28,12 +28,6 @@ Maps find their applications in various domains, from software development to re
 
 ### Advanced Topics
 
-Advanced implementations of maps use mechanisms like hashing and balanced trees to enhance performance. Hashing allows for constant time complexity (O(1)) for basic operations in the best-case scenario, while balanced trees offer logarithmic time complexity (O(log n)), ensuring efficiency even in large datasets.
-
-### Images
-
-![Map](map.png"map")
-
-Maps are an indispensable tool in computer science, offering a blend of efficiency, flexibility, and convenience for managing data. Their integration with and relation to other data structures like linked lists, stacks, and trees further highlight their utility in solving complex programming challenges.
+Advanced implementations of maps use mechanisms like hashing and balanced trees to enhance performance. Hashing allows for constant time complexity (O(1)) for basic operations in the best-case scenario, while balanced trees offer logarithmic time complexity (O(log n)), ensuring efficiency even in large datasets. Maps are an indispensable tool in computer science, offering a blend of efficiency, flexibility, and convenience for managing data. Their integration with and relation to other data structures like linked lists, stacks, and trees further highlight their utility in solving complex programming challenges.
 
 [Back to Overview](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md)
