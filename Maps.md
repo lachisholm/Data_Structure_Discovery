@@ -37,3 +37,5 @@ Advanced implementations of maps use mechanisms like hashing and balanced trees 
 ---
 
 Maps are an indispensable tool in computer science, offering a blend of efficiency, flexibility, and convenience for managing data. Their integration with and relation to other data structures like linked lists, stacks, and trees further highlight their utility in solving complex programming challenges.
+
+[Back to Overview](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md)
