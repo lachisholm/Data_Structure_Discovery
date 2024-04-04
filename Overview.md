@@ -27,7 +27,7 @@ As part of this discussion I will cover the fundamental data structures. These s
 
 - [Trees](Trees.md)
 
-- [LIFO](LIFO.md)
+- [Stack](Stack.md)
 
 All four concepts’ maps, linked lists, stacks(LIFO), and trees all aim to efficiently organize
 and manage data, each tailored to specific needs.
