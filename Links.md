@@ -44,6 +44,8 @@ There are several types of linked lists, each offering unique advantages:
 
 ![Linked list](linkedlist.jpg "Linked Lists - real python")
 
+---
+
 Steps for creating a linked list
 
 1. Create a node
