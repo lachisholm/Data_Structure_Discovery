@@ -8,7 +8,7 @@ Maps, known in some programming languages as dictionaries, are versatile data st
 - **Dynamic Resizing:** They can adjust to accommodate changing data sizes, ensuring efficiency and flexibility.
 - **Versatile Key and Value Types:** Maps support arbitrary data types for both keys and values, enhancing their utility across different programming scenarios.
 
-### B. Connection to Other Data Structures
+### Connection to Other Data Structures
 
 Maps share a conceptual foundation with other data structures like linked lists, stacks, and trees, each serving unique purposes in organizing and accessing data.
 
@@ -18,7 +18,7 @@ Maps share a conceptual foundation with other data structures like linked lists,
 
 - **Trees:** Trees organize data hierarchically, in contrast to the key-value pairing of maps. However, certain map implementations, such as TreeMap in Java, utilize trees (specifically, red-black trees) under the hood to maintain order and ensure efficient access and modification times. This demonstrates the versatility of maps in adopting tree structures for optimized performance.
 
-### C. Practical Applications
+### Practical Applications
 
 Maps find their applications in various domains, from software development to real-time system operations:
 
@@ -26,13 +26,13 @@ Maps find their applications in various domains, from software development to re
 - **User Session Data:** Managing session information in web applications, where each session can be accessed using session IDs as keys.
 - **Caching:** Temporarily storing data to reduce access times, where each piece of cached data is uniquely identified by a key.
 
-### D. Advanced Topics
+### Advanced Topics
 
 Advanced implementations of maps use mechanisms like hashing and balanced trees to enhance performance. Hashing allows for constant time complexity (O(1)) for basic operations in the best-case scenario, while balanced trees offer logarithmic time complexity (O(log n)), ensuring efficiency even in large datasets.
 
 ### Images
 
-![Maps]("Maps.png")
+![Maps](Maps.png"map")
 
 ---
 
