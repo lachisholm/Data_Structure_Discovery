@@ -150,6 +150,8 @@ queue = Queue()
 
 ### Challenge
 
+---
+
 Implement a Basic Stack in Python that supports the basic operations of a stack: push, pop.
 
 Do one in LIFO and one in FIFO.
