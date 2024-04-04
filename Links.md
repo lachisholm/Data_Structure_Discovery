@@ -42,6 +42,20 @@ Steps for creating a linked list
 4. Insert nodes
 5. Delete nodes if applicable
 
+```Python
+# Creating a linked list and populating it with nodes
+linked_list = LinkedList()
+linked_list.append(1)
+linked_list.append(2)
+linked_list.append(3)
+
+# Inserting a node after the head
+linked_list.insert(linked_list.head, 1.5)
+
+# Deleting a node
+linked_list.delete_node(2)
+```
+
 "A common example of a linked list is a train, all cars are connected together singly. To compare this with computer applications, the undo functionality of an application can be a linked list and the redo would be another linked list going only in one direction to the last operation." Study.com
 ![Train](Trains.jpg "Trains")
 
