@@ -97,6 +97,40 @@ def insert(self, prev_node, data):
     prev_node.next = new_node
 ```
 
+Hint: The above python snippett could be confusing because you might be looking for the verification step
+This verification step is missing above, so you would typically start from self.head and iterate through the list to find if prev_node is indeed a part of your linked list.
+If not, the operation should not proceed.
+
+To correctly insert a node after a specific prev_node, you must first locate the prev_node in the list. This involves traversing the list from the head until you find the prev_node. This is crucial because a user could pass any node object as prev_node, and without validation, this could lead to inconsistent states in your linked list.
+
+### Improved Insert Method with Validation via Python
+
+This revised method starts by checking if the list is empty. It then creates a new node with the given data. The method traverses the list from the head, searching for a node with 'data'matching 'prev_node_data'. If such a node is found the new node is inserted right after it.
+
+```Python
+def insert_after_node(self, prev_node_data, data):
+    if self.head is None:
+        print("List is empty.")
+        return
+
+    new_node = Node(data)
+    temp = self.head
+
+    # Traverse through the list to find the prev_node
+    while temp is not None:
+        if temp.data == prev_node_data:
+            break
+        temp = temp.next
+
+    # Check if the prev_node is part of the list
+    if temp is None:
+        print("Previous node not found in the list.")
+        return
+    else:
+        new_node.next = temp.next
+        temp.next = new_node
+```
+
 5. Delete nodes by Value
 
 ```Python
