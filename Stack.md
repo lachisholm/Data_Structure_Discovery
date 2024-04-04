@@ -1,8 +1,4 @@
-Page under Construction !
-
-### This page is about LIFO
-
-# Practical Applications of LIFO
+# Practical Applications of Stack
 
 LIFO is an acronym for Last In, First Out.
 
