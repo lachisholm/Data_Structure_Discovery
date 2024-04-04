@@ -1,6 +1,6 @@
 # Python Data Structure Discovery
 
-Maps, Linked Lists, Trees, and (LIFO) stacks
+Linked Lists, Trees, and (LIFO and FIFO) stacks, Maps
 
 BYU Idaho Winter 2024
 CSE 212
