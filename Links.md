@@ -12,6 +12,8 @@ A linked list is a linear data structure that stores data elements in nodes conn
 1. The part that stores the element, the actual value or data that needs to be stored.
 2. The part that stores the link to the next node in the list, creating a link between the nodes.
 
+---
+
 How to define a list in Python
 
 ```python
@@ -51,4 +53,22 @@ Linked Lists can also be used in creating or building out stacks and queues as w
 >
 > **_ Queues - like a line, you add items to the back and remove them from the front._**
 
+---
+
+## Challenge: Reverse a Linked List
+
+**Task:** Implement a `reverse` method in the `LinkedList` class. This method should reverse the order of nodes in the list so that the last node becomes the first.
+
+**Requirements:**
+
+- Do not use any additional data structures.
+- Modify the list in place.
+
+**Example Method Signature:**
+
+```python
+def reverse(self):
+    # Your code here
+
 [Back to Overview](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md)
+```
