@@ -6,8 +6,6 @@ The terms LIFO and FIFO refer to two distinct methods of managing data structure
 
 LIFO stands for "Last In, First Out." It is a method where the last element added to a structure is the first one to be removed. This principle is akin to a stack of plates; you can only remove the top plate without disturbing the others, meaning the last plate placed on the stack is the first one taken off.
 
----
-
 ### **Characteristics of LIFO**
 
 - **Addition (Push):** New elements are added to the top of the stack.
@@ -26,6 +24,8 @@ FIFO is an acronym for "First In, First Out." It is a method where the first ele
 - **Front and Rear Elements:** In a FIFO structure, you can easily access the first (front of the line) and the last (rear of the line) elements, representing the first added and last added items, respectively.
 - **Use Cases:** FIFO is widely used in resource scheduling, such as printer queues, buffering data streams, and handling asynchronous data transfers between software components.
 
+---
+
 | Aspect        | LIFO (Stack)                                        | FIFO (Queue)                                           |
 | ------------- | --------------------------------------------------- | ------------------------------------------------------ |
 | Order         | Last In, First Out                                  | First In, First Out                                    |
@@ -33,6 +33,8 @@ FIFO is an acronym for "First In, First Out." It is a method where the first ele
 | Removal       | Removed from the top                                | Removed from the beginning                             |
 | Accessibility | Top Element only                                    | Front and rear elements                                |
 | Use Cases     | Function calls, Undo operations, Expression parsing | Resource Scheduling, Buffering, Asynchronous transfers |
+
+---
 
 The LIFO concept does not directly apply to maps, linked lists, and trees however LIFO can be
 associated with these data structures in the context of specific applications or operations
