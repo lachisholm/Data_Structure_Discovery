@@ -196,9 +196,7 @@ linked_list.delete_node(2)
 ```
 
 "A common example of a linked list is a train, all cars are connected together singly. To compare this with computer applications, the undo functionality of an application can be a linked list and the redo would be another linked list going only in one direction to the last operation." Study.com
-![Train](Trains.jpg "Trains")
-
-##### chisholm-pic
+![Train](Trains.jpg "Trains")chisholm-pic
 
 Adding or deleting from lists is pretty simple, quick and easy to do, while it takes just a single step. If your looking for a specific item in the list it probably will take a bit longer because you have to go through the list checking each link until you find what your looking for.
 
