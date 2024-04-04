@@ -45,7 +45,7 @@ through one branch to its leaves before backtracking to explore other branches.
 
 LIFO(Stack) Optimized for scenarios where the most recent data is of the highest priority. It is used in applications where the order of operations must be reversed or last performed operation needs to be accessed quickly.
 
-![LIFO](LIFOdraw.jpg "Last in First out")
+![LIFO](LIFOdraw.jpg "Last in First out") Deposit photos
 
 LIFO(stack)
 
@@ -54,7 +54,7 @@ LIFO(stack)
 - Peek (Access Next) Returns the top element without removing O(1)
 - IsEmpty (Check Empty): Checks if the stack is empty. O(1)
 
-![FIFO](FIFOblock.jpg "First in and First out")
+![FIFO](FIFOblock.jpg "First in and First out") Cadre Technologies
 
 FIFO(Queue) Best suited for scenarios where the order of operations or data processing must remain consistent over time. It is used in scheduling and sequential processing tasks where the first input should be the first to be processed or executed.
 FIFO(Queue)
