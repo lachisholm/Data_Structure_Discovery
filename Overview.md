@@ -54,4 +54,4 @@ for operations like undo.
 ➢ Understanding these four data structures provides a solid foundation for designing and
 implementing more complex data structures and algorithms in software development.
 
-These data structures are essential for organizing and managing data efficiently in various algorithms and applications that I will build throughout a career and they are so fundamental that they are essential to learn.
+These data structures are essential for organizing and managing data efficiently in various algorithms and applications that I will build throughout a career and they are so fundamental that they are essential to learn
