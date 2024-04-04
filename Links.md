@@ -64,6 +64,4 @@ Linked Lists can also be used in creating or building out stacks and queues as w
 - Do not use any additional data structures.
 - Modify the list in place.
 
-**Example Method Signature:**
-
 [Back to Overview](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md)
