@@ -22,10 +22,12 @@ Below are my informational pages for the final project
 
 [Overview for this project](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md)
 
-[Map - also known as Dictionaries](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Maps.md)
-
 [Linked lists](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Links.md)
 
 [Trees](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Trees.md)
 
 [LIFO - Last In, First Out](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/LIFO.md)
+
+### Additional support page
+
+[Map - also known as Dictionaries](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Maps.md)
