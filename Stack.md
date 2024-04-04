@@ -146,10 +146,14 @@ class Queue:
 queue = Queue()
 
 
-
-
 ```
 
-Understanding and appplying the appropriate data structure based on LIFO or FIFO principles is crucial in developing efficient algorithms and systems.
+### Challenge
+
+Implement a Basic Stack in Python that supports the basic operations of a stack: push, pop.
+
+Do one in LIFO and one in FIFO.
+
+Understanding and appplying the appropriate data structure based on LIFO or FIFO principles is crucial in developing efficient algorithms and systems and practice makes perfect.
 
 [Back to Overview](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md)
