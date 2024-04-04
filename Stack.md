@@ -36,20 +36,27 @@ FIFO is an acronym for "First In, First Out." It is a method where the first ele
 
 ---
 
-The LIFO concept does not directly apply to maps, linked lists, and trees however LIFO can be
-associated with these data structures in the context of specific applications or operations
-Starting with maps or associative arrays, which are collections of key value pairs. They do not
-inherently follow a LIFO principle as they are designed for fast retrieval, insertion, and deletion
-based on keys. However, you can use stacks to track the insertion order in maps if needed for
-specific applications, such as undo functionality in a key value store where the most recently
-added entry needs to be removed first. Linked lists themselves are not LIFO structures, you can
-implement a stack using a linked list by adding and removing elements from the same end of the
-list, effectively utilizing the LIFO principle in the context of linked list operations. Trees do not
-intrinsically operated on a LIFO principle, but tree traversal algorithms, such as depth first search
-(DFS) can utilize a stack and the LIFO principle to explore the depth of the tree first, moving
-through one branch to its leaves before backtracking to explore other branches.
+The LIFO (Last In, First Out) and FIFO (First In, First Out) concepts typically apply to queues and stacks, but they do not directly apply to maps, linked lists, and trees. However, both LIFO and FIFO can be associated with these data structures in the context of specific applications or operations.
 
-LIFO(Stack) Optimized for scenarios where the most recent data is of the highest priority. It is used in applications where the order of operations must be reversed or last performed operation needs to be accessed quickly.
+### **Maps (or Associative Arrays)**
+
+Maps, collections of key-value pairs, do not inherently adhere to LIFO or FIFO principles as they are designed for fast retrieval, insertion, and deletion based on keys. Nevertheless, for specific applications, stacks (LIFO) or queues (FIFO) can be utilized to track the insertion order in maps. This approach is beneficial in scenarios such as implementing undo functionality (using LIFO) where the most recently added entry needs to be removed first, or ensuring processing order (using FIFO) for operations that must occur in the sequence they were initiated.
+
+### **Linked Lists**
+
+Linked lists themselves are not inherently LIFO or FIFO structures. However, by adding and removing elements from the same end, a linked list can implement a stack (LIFO), effectively utilizing the LIFO principle. Conversely, by adding elements at one end and removing them from the other, a linked list can function as a queue (FIFO), embodying the FIFO principle. This flexibility allows linked lists to support a variety of applications requiring specific orderings of data processing.
+
+### **Trees**
+
+Trees do not intrinsically operate on LIFO or FIFO principles. However, tree traversal algorithms, such as Depth-First Search (DFS), can utilize a stack (LIFO) to explore the depth of the tree first, moving through one branch to its leaves before backtracking to explore other branches. Alternatively, Breadth-First Search (BFS) utilizes a queue (FIFO) to explore the breadth of the tree, examining all nodes at a particular depth before moving to the nodes at the next depth level. These approaches demonstrate how both LIFO and FIFO principles can be applied in specific tree operations.
+
+### **LIFO (Stack)**
+
+Optimized for scenarios where the most recent data is of the highest priority. LIFO is used in applications where the order of operations must be reversed, or the last performed operation needs to be accessed quickly.
+
+### **FIFO (Queue)**
+
+FIFO is optimized for scenarios requiring processing in the order that data or tasks were received. It is particularly useful in resource scheduling, managing tasks in operating systems, or handling asynchronous data transfers between software components.
 
 ![LIFO](LIFOdraw.jpg "Last in First out") Deposit photos
 
