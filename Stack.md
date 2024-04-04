@@ -6,6 +6,8 @@ The terms LIFO and FIFO refer to two distinct methods of managing data structure
 
 LIFO stands for "Last In, First Out." It is a method where the last element added to a structure is the first one to be removed. This principle is akin to a stack of plates; you can only remove the top plate without disturbing the others, meaning the last plate placed on the stack is the first one taken off.
 
+---
+
 ### **Characteristics of LIFO**
 
 - **Addition (Push):** New elements are added to the top of the stack.
