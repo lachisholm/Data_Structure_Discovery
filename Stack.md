@@ -30,8 +30,6 @@ Use Cases: FIFO is widely used in resource scheduling such as printer queues or 
 | Accessibility | Top Element only                                    | Front and rear elements                                |
 | Use Cases     | Function calls, Undo operations, Expression parsing | Resource Scheduling, Buffering, Asynchronous transfers |
 
-![Linked list](linkedlist.jpg "Linked Lists - real python")
-
 The LIFO concept does not directly apply to maps, linked lists, and trees however LIFO can be
 associated with these data structures in the context of specific applications or operations
 Starting with maps or associative arrays, which are collections of key value pairs. They do not
@@ -47,7 +45,7 @@ through one branch to its leaves before backtracking to explore other branches.
 
 LIFO(Stack) Optimized for scenarios where the most recent data is of the highest priority. It is used in applications where the order of operations must be reversed or last performed operation needs to be accessed quickly.
 
-|Operations and Big O Notation
+![LIFO](LIFOdraw.jpg "Last in First out")
 
 LIFO(stack)
 
@@ -55,6 +53,8 @@ LIFO(stack)
 - Pop(Removal) Removes the top element. O(1)
 - Peek (Access Next) Returns the top element without removing O(1)
 - IsEmpty (Check Empty): Checks if the stack is empty. O(1)
+
+![FIFO](FIFOblock.jpg "First in and First out")
 
 FIFO(Queue) Best suited for scenarios where the order of operations or data processing must remain consistent over time. It is used in scheduling and sequential processing tasks where the first input should be the first to be processed or executed.
 FIFO(Queue)
