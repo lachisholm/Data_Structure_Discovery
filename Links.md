@@ -1,6 +1,6 @@
 # Linked Lists
 
-![Linked list](LLPY.png "Header pic") python.org
+![Linked list](LLPY.png "Header pic") ###### python.org
 
 ### What is a Linked List?
 
@@ -42,7 +42,7 @@ There are several types of linked lists, each offering unique advantages:
 - **Doubly Linked Lists:** Nodes point both to the next and the previous node, facilitating backward navigation.
 - **Circular Linked Lists:** The list forms a circle where the last node points back to the first node, allowing for circular traversal.
 
-![Linked list](linkedlist.jpg "Linked Lists - real python") Real Python
+![Linked list](linkedlist.jpg "Linked Lists - real python") ###### Real Python
 
 ---
 
