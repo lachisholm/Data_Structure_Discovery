@@ -32,9 +32,7 @@ Advanced implementations of maps use mechanisms like hashing and balanced trees 
 
 ### Images
 
-![Maps](Map.png"map")
-
----
+![Maps](map.png"map")
 
 Maps are an indispensable tool in computer science, offering a blend of efficiency, flexibility, and convenience for managing data. Their integration with and relation to other data structures like linked lists, stacks, and trees further highlight their utility in solving complex programming challenges.
 
