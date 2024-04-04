@@ -8,7 +8,7 @@ widely used for representing hierarchical relationships, such as file systems,
 organization charts, or hierarchical data in databases.
 
 Trees are a fundamental data structure in computer science with a wide range of applications.
-Understanding how they work and how to manipulate them is crucial for software development and algoithm design
+Understanding how they work and how to manipulate them is crucial for software development and algorithm design
 
 ![Trees](Treepic.jpg "Trees")Slideserve
 
@@ -46,13 +46,13 @@ An example of this in python could be written like this
 
 ```python
 class TreeNode:
-    def **init**(self, data):
+    def __init__(self, data):
         self.data = data
         self.children = []
 ```
 
 - A Root is the topmost node in a tree.
-  There is exactly one root per tree, and it has no parent. My code snip below shows a class where each node has a value and a list of children. The root node is then created by intantiating the TreeNode class with the value RootNode
+  There is exactly one root per tree, and it has no parent. My code snip below shows a class where each node has a value and a list of children. The root node is then created by instantiating the TreeNode class with the value RootNode
 
 ```python
 
@@ -71,7 +71,7 @@ root = TreeNode("Root Node")
 
 ```python
 class TreeNode:
-    def__init__(self, value):
+    def __init__(self, value):
         self.value = value
         self.children = []
 
@@ -86,7 +86,7 @@ leaf = TreeNode("Leaf Node")
 
   - The TreeNode class represents each node with a value and an optional parent
 
-  - The depth function calcualates the depth by traversing up the parent chain until it finds a node without a parent, which would be the root.
+  - The depth function calculates the depth by traversing up the parent chain until it finds a node without a parent, which would be the root.
 
   - The depth counter increments with each step up
 
@@ -99,7 +99,7 @@ class TreeNode:
         self.value = value
         self.parent = parent
 
-    def depth(node);
+    def depth(node):
     depth = 0
     while node.parent:
         node = node.parent
@@ -120,13 +120,13 @@ child2 = TreeNode("Child 2", child1)
   - The height of a node to be the number of edges on the longest path from the node to a leaf.
   - A leaf node having no children, has a height of 0.
 
-Here is python code that shows the treenode class represents each node, where a node can have multiple children stored in a list. The add_child method is used to establish parent child relationships. The height function caculates the height of a node.
+Here is python code that shows the treenode class represents each node, where a node can have multiple children stored in a list. The add_child method is used to establish parent child relationships. The height function calcuates the height of a node.
 For a node with no children(a leaf), the height is 0
 For other nodes, it recursively finds the height of each child node, selects the maximum height among them, and adds 1(representing the edge between the node and its child)
 
 ```python
 class TreeNode:
-    def __init__(self, value:)
+    def __init__(self, value):
         self.value = value
         self.children = []
 
@@ -135,7 +135,7 @@ class TreeNode:
 
 def height(node):
     # This is the Base case, if it has no children, it's a leaf
-    if not node.children
+    if not node.children:
         return 0
 
     else:
@@ -179,14 +179,14 @@ class BSTNode:
         self.left = None
         self.right = None
 
-def insert(root, key):
-    if root is None:
-        return BSTNode(key)
-    else:
-        if root.key < key:
-            root.right = insert(root.right, key)
-        elif root.key > key:
-            root.left = insert(root.left, key)
+    def insert(root, key):
+        if root is None:
+            return BSTNode(key)
+        else:
+            if root.key < key:
+                root.right = insert(root.right, key)
+            elif root.key > key:
+                root.left = insert(root.left, key)
         # If root.key is equal to key, then this key is already present in the tree,
         # so we do not insert it again. BSTs do not contain duplicate keys.
     return root
@@ -197,7 +197,7 @@ def insert(root, key):
 
 There will be many ways that you use trees in Data Structure and in programming in the real world. So let's look at one.
 
-Suppose your're tasked with managing an inventory for a bookstore. Each book is categorized based on its genre, and within each genre, books are further organized by author name. You decide to use a tree data structure to efficiently manage and access your inventory.
+Suppose you're tasked with managing an inventory for a bookstore. Each book is categorized based on its genre, and within each genre, books are further organized by author name. You decide to use a tree data structure to efficiently manage and access your inventory.
 
 The first thing you would have to do is to create a simple tree structure using your language of choice. Mine is Python. So I would create a simple tree structure in Python to represent book genres as the first level of nodes and authors as the second level. This structure will help quickly access all the books by a specific author within any genre.
 
@@ -240,7 +240,7 @@ fiction.add_child(author2)
 def display_tree(node, level= 0):
     print("  " * level + node.name)
     for child in node.children:
-        display_tree(chrild, level+1)
+        display_tree(child, level+1)
 
 # This is where you Display the bookstore inventory structure
 display-tree(root)
@@ -248,6 +248,6 @@ display-tree(root)
 
 ## Your Challenge:
 
-Make your own libary now you know how to get started. Give it more than fiction, non-fiction. Choose different areas like children section, adults, teens, and give each of these there own classifications of fiction, non -fiction, adventure, the classics, and anything else that you can think of to bring your libary to life for different ages.
+Make your own library now you know how to get started. Give it more than fiction, non-fiction. Choose different areas like children section, adults, teens, and give each of these their own classifications of fiction, non-fiction, adventure, the classics, and anything else that you can think of to bring your library to life for different ages.
 
 [Back to Overview](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md)

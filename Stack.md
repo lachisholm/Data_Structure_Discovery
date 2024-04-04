@@ -62,7 +62,7 @@ FIFO is optimized for scenarios requiring processing in the order that data or t
 
 LIFO(stack)
 
-- Push(Addition) Adds an element to the top, the effieciency is O(1)
+- Push(Addition) Adds an element to the top, the effciency is O(1)
 - Pop(Removal) Removes the top element. O(1)
 - Peek (Access Next) Returns the top element without removing O(1)
 - IsEmpty (Check Empty): Checks if the stack is empty. O(1)
@@ -97,7 +97,7 @@ class Stack:
 
     def peek(self):
         """O(1)"""
-        if not self.is_empty()
+        if not self.is_empty():
             return self.items[-1]
         return None
 
