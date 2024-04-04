@@ -57,7 +57,7 @@ Linked Lists can also be used in creating or building out stacks and queues as w
 
 ## Challenge: Reverse a Linked List
 
-**Task:** Implement a `reverse` method in the `LinkedList` class. This method should reverse the order of nodes in the list so that the last node becomes the first.
+**Task:** Implement a reverse method in the LinkedList class. This method should reverse the order of nodes in the list so that the last node becomes the first.
 
 **Requirements:**
 
@@ -66,9 +66,4 @@ Linked Lists can also be used in creating or building out stacks and queues as w
 
 **Example Method Signature:**
 
-```python
-def reverse(self):
-    # Your code here
-
 [Back to Overview](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md)
-```
