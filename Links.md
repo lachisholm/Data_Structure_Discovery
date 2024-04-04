@@ -14,7 +14,7 @@ A linked list is a linear data structure that stores data elements in nodes conn
 
 ---
 
-How to define a list in Python
+## How to define a list in Python
 
 ```python
 class LinkedList:
@@ -42,7 +42,7 @@ Steps for creating a linked list
 4. Insert nodes
 5. Delete nodes if applicable
 
-Using a Linked List in Python
+## Using a Linked List in Python
 
 ```Python
 # Creating a linked list and populating it with nodes
