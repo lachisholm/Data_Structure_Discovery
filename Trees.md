@@ -184,6 +184,13 @@ def insert(root, key):
         return BSTNode(key)
     else:
         if root.key < key:
+            root.right = insert(root.right, key)
+        elif root.key > key:
+            root.left = insert(root.left, key)
+        # If root.key is equal to key, then this key is already present in the tree,
+        # so we do not insert it again. BSTs do not contain duplicate keys.
+    return root
+
 ```
 
 ### Sample Use Problem
