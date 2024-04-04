@@ -244,7 +244,3 @@ Your Challenge:
 Make your own libary now you know how to get started. Give it more than fiction, non-fiction. Choose different areas like children section, adults, teens, and give each of these there own classifications of fiction, non -fiction, adventure, the classics, and anything else that you can think of to bring your libary to life for different ages.
 
 [Back to Overview](https://github.com/lachisholm/Data_Structure_Discovery/blob/main/Overview.md)
-
-```
-
-```
