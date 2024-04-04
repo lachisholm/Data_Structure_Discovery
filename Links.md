@@ -12,6 +12,16 @@ A linked list is a linear data structure that stores data elements in nodes conn
 1. The part that stores the element, the actual value or data that needs to be stored.
 2. The part that stores the link to the next node in the list, creating a link between the nodes.
 
+How to define a list in Python
+
+```python
+class LinkedList:
+    def __init__(self):
+        self.head = None
+```
+
+This linked list Python code above shows a class that initializes a linked list with a head property, pointing to the first node in the list.
+
 Unlike arrays, linked lists do not require contiguous memory allocation, allowing for dynamic memory management and efficient insertion and deletion operations. Linked lists come in various forms, including singly linked lists, doubly linked lists, and circular linked lists, each offering different trade-offs in terms of memory usage and performance. They are commonly used in scenarios
 where frequent insertions or deletions are expected, such as implementing stacks,
 queues, or managing dynamic data structures
